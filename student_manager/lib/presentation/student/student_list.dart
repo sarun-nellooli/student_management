@@ -44,7 +44,7 @@ class _StudentListState extends State<StudentList> {
                     child: ExpansionTile(
                       leading: const CircleAvatar(
                         backgroundImage: AssetImage('assets/avatar.png'),
-                        radius: 30,
+                        radius: 25,
                       ),
                       title: Text(_name(snapshot.data[index])),
                       children: <Widget>[

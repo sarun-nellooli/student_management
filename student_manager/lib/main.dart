@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:student_manager/presentation/classroom/add_subject.dart';
 import 'package:student_manager/presentation/classroom/classroom_list.dart';
 import 'package:student_manager/presentation/home_screen.dart';
+import 'package:student_manager/presentation/registration/registration.dart';
 import 'package:student_manager/presentation/subject/subject_list.dart';
 
 import 'presentation/student/student_list.dart';
