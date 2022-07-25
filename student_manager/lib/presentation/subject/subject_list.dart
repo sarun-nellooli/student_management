@@ -39,8 +39,9 @@ class _SubjectListState extends State<SubjectList> {
                   return Card(
                     child: ExpansionTile(
                       leading: const CircleAvatar(
-                        backgroundImage: AssetImage('assets/avatar.png'),
-                        radius: 30,
+                        backgroundColor: Colors.white,
+                        backgroundImage: AssetImage('assets/subject.png'),
+                        radius: 25,
                       ),
                       title: Text(_name(snapshot.data[index])),
                       children: <Widget>[

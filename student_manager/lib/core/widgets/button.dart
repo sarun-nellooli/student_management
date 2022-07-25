@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Button extends StatelessWidget {
   Button({Key? key, required this.btnText, required this.onPress})
       : super(key: key);
-  String btnText;
+  final String btnText;
   Function() onPress = () {};
   @override
   Widget build(BuildContext context) {
@@ -12,8 +12,8 @@ class Button extends StatelessWidget {
       width: 200,
       child: ElevatedButton(
         onPressed: onPress,
+        style: ElevatedButton.styleFrom(shape: const StadiumBorder()),
         child: Text(btnText),
-        style: ElevatedButton.styleFrom(shape: StadiumBorder()),
       ),
     );
   }
